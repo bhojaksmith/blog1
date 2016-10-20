@@ -1,0 +1,193 @@
+iframe{
+	 width:200;
+	 height:120;
+}
+h1{
+	color: #f1f1f1;
+	background: #202020;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 2em;
+	margin-top:0;
+}
+body{
+	font-family: helvetica;
+	text-align: center;
+	color: #202020;
+	background-color:#f1f1f1 ;
+}
+p{
+	font-size: 1em;
+}
+a{
+	text-decoration:none;
+	color: #56d0c1;
+	text-align: left;
+	font-size: .9m; 
+}
+a:hover{
+	font-size: 1.1em;
+}
+h2{
+	text-align: left;
+	font-size: 1.1em;
+}
+#icn{
+	color: #56d0c1;
+	font-size: 1.2em;
+}
+#name  {
+  font-size: 1.8em;
+  color:#56d0c1;
+  font-family: cursive;
+  white-space: nowrap;
+}
+
+	#name  span {
+		-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+		-o-transition: all 0.3s linear;
+		-ms-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+		-webkit-animation: sharpen 0.6s linear backwards;
+		-moz-animation: sharpen 0.6s linear backwards;
+		-ms-animation: sharpen 0.6s linear backwards;
+		animation: sharpen 0.6s linear backwards;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		filter: alpha(opacity=90);
+		opacity: 1;
+	}
+	#name  span:nth-child(1) {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-delay: 1s;
+	}
+	#name  span:nth-child(2) {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-delay: 1s;
+	}
+	#name  span:nth-child(3) {
+	-webkit-animation-delay: 0.9s;
+	-moz-animation-delay: 0.9s;
+	-ms-animation-delay: 0.9s;
+	animation-delay: 0.9s;
+	}
+	#name  span:nth-child(4) {
+	-webkit-animation-delay: 0.9s;
+	-moz-animation-delay: 0.9s;
+	-ms-animation-delay: 0.9s;
+	animation-delay: 0.9s;
+	}
+	#name  span:nth-child(5) {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	-ms-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+	}
+	#name  span:nth-child(6) {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	-ms-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+	}
+	#name  span:nth-child(7) {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	}
+	#name  span:nth-child(8) {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	}
+	#name  span:nth-child(9) {
+	-webkit-animation-delay: 0.3s;
+	-moz-animation-delay: 0.3s;
+	-ms-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+	}
+	#name  span:nth-child(10) {
+	-webkit-animation-delay: 0.1s;
+	-moz-animation-delay: 0.1s;
+	-ms-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+	}
+	#name  span:nth-child(11) {
+	-webkit-animation-delay: 0.1s;
+	-moz-animation-delay: 0.1s;
+	-ms-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+	}
+	@keyframes sharpen {
+	 0% {
+	   	opacity: 0;
+	   	text-shadow: 0px 0px 100px #999;
+	   	color: transparent;
+	 }
+	 90% {
+	   	opacity: 0.9;
+	   	text-shadow: 0px 0px 10px #999;
+	   	color: transparent;
+	 }
+	 100% {
+	    color: #999;
+	   	opacity: 1;
+	   	text-shadow: 0px 0px 2px #999, 1px 1px 4px rgba(0,0,0,0.7);
+	 }
+	}
+	@-moz-keyframes sharpen {
+	 0% {
+	   	opacity: 0;
+	   	text-shadow: 0px 0px 100px #999;
+	   	color: transparent;
+	 }
+	 90% {
+	   	opacity: 0.9;
+	   	text-shadow: 0px 0px 10px #999;
+	   	color: transparent;
+	 }
+	 100% {
+	    color: #999;
+	   	opacity: 1;
+	   	text-shadow: 0px 0px 2px #999, 1px 1px 4px rgba(0,0,0,0.7);
+	 }
+	}
+	@-webkit-keyframes sharpen {
+	 0% {
+	   	opacity: 0;
+	   	text-shadow: 0px 0px 100px #999;
+	   	color: transparent;
+	 }
+	 90% {
+	   	opacity: 0.9;
+	   	text-shadow: 0px 0px 10px #999;
+	   	color: transparent;
+	 }
+	 100% {
+	    color: #999;
+	   	opacity: 1;
+	   	text-shadow: 0px 0px 2px #999, 1px 1px 4px rgba(0,0,0,0.7);
+	 }
+	}
+	@-ms-keyframes sharpen {
+	 0% {
+	   	opacity: 0;
+	   	text-shadow: 0px 0px 100px #999;
+	   	color: transparent;
+	 }
+	 90% {
+	   	opacity: 0.9;
+	   	text-shadow: 0px 0px 10px #999;
+	   	color: transparent;
+	 }
+	 100% {
+	    color: #999;
+	   	opacity: 1;
+	   	text-shadow: 0px 0px 2px #999, 1px 1px 4px rgba(0,0,0,0.7);
+	 }
+	}
