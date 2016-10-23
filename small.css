@@ -21,9 +21,12 @@ p{
 }
 a{
 	text-decoration:none;
-	color: #56d0c1;
+	color: lightgray;
 	text-align: left;
 	font-size: .9m; 
+}
+.mobileHide{
+	display: none;
 }
 a:hover{
 	font-size: 1.1em;
@@ -32,13 +35,14 @@ h2{
 	text-align: left;
 	font-size: 1.1em;
 }
+#
 #icn{
-	color: #56d0c1;
+	color: #202020;
 	font-size: 1.2em;
 }
 #name  {
   font-size: 1.8em;
-  color:#56d0c1;
+  color:#202020;
   font-family: cursive;
   white-space: nowrap;
 }
